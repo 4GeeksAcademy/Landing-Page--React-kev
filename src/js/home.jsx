@@ -4,7 +4,6 @@ import HeroImage from "./components/HeroImage";
 import Card from "./components/card";
 import Footer from "./components/footer";
 
-//create your first component
 const Home = () => {
   return (
     <>
@@ -16,7 +15,7 @@ const Home = () => {
         <section className="container d-flex flex-column p-3 justify-content-between gap-4">
           <HeroImage />
 
-          <div className="row justify-content-center gap-2">
+          <div className="row justify-content-center ">
             <Card />
             <Card />
             <Card />

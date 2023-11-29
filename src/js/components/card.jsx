@@ -2,8 +2,8 @@ import React from "react";
 
 const Card = () => {
   return (
-    <>
-      <div className="card p-0 col" style={{ width: "20rem" }}>
+    <div className="col-12 col-md-4 col-lg-3 mb-3">
+      <div className="card p-0 ">
         <img
           src="https://picsum.photos/200"
           className="card-img-top"
@@ -20,7 +20,7 @@ const Card = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
