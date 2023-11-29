@@ -5,20 +5,24 @@ const NavBar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark px-5">
         <div className="container-fluid ">
-          <a className="navbar-brand text-light fw-bold" href="#">
-            Start Bootstrap
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+          <div className="d-flex justify-content-between w-100">
+            <a className="navbar-brand text-light fw-bold" href="#">
+              Start Bootstrap
+            </a>
+
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
           <div
             className="collapse navbar-collapse d-flex justify-content-lg-end "
             id="navbarNavAltMarkup"

@@ -13,18 +13,18 @@ const Home = () => {
           <NavBar />
         </nav>
 
-        <section className="container d-flex flex-column p-3 justify-content-between gap-5">
+        <section className="container d-flex flex-column p-3 justify-content-between gap-4">
           <HeroImage />
 
           <div className="row justify-content-center gap-2">
-            <Card className="col" />
-            <Card className="col" />
-            <Card className="col" />
-            <Card className="col" />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
           </div>
         </section>
 
-        <footer className="container p-0 m-0 mw-100" style={{ height: "70px" }}>
+        <footer className="container p-0 m-0 mw-100">
           <Footer />
         </footer>
       </main>
